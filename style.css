@@ -1,0 +1,183 @@
+body{
+    background-color:f8f2e8;
+    color:#33251b;
+    font-family:Arial,sans-serif;
+    font: size 16px;
+    line-height:1.6;
+    margin:0;
+}
+header{
+    background-color:493022;
+    color:white;
+    padding:25px;
+    text-align:center;
+}
+h1{
+    color:white;
+    font-size:30px;
+}
+h2{
+    color:#68412a;
+    font-size:26px;
+    text-align:center;
+}
+nav{
+    background-color: #ead6bb;
+    padding:15px;
+    text-align:center;
+}
+a{
+    color:#71401e;
+    text-decoration:underline;
+}
+a:hover{
+    color:#a34f17
+}
+.highlight{
+    background-color:#fff7e9;
+    padding:10px;
+}
+.note{
+    border-left:4px solid#68412a;
+    padding:10px;
+}
+img{
+    display:block;
+    margin:20px auto;
+    max-width:100%;
+    height:auto;
+    border-radius:10px;
+}
+footer{
+    background-color:#493022;
+    color:white;
+    text-align:center;
+    padding:15px;
+}
+
+/* WEEK 6 CSS IMPROVEMENTS */
+/* Box sizing */
+*{
+    box-sizing:border-box;
+}
+/* ID selector */
+#main-content{
+    width:90%;
+    max-width:1000px;
+    margin:30px auto;
+    padding:20px;
+}
+/* Element selectors */
+p{
+    font-size:16px;
+    line-height:1.7;
+    margin-bottom:15px;
+}
+h3{
+    color:#68412a;
+    margin-bottom: 15px;
+}
+section{
+    margin-bottom:30px;
+    padding:20px;
+}
+/*Navigation descendant selector */
+nav a {
+    display: inline-block;
+    color:#493022;
+    text-decoration:none;
+    font-weight:bold;
+    padding:10px 15px;
+    margin:5px;
+}
+/*Navigation hover */
+nav a:hover{
+    background-color:#68412a;
+    color:white;
+    border-radius:5px;
+}
+/*Highlight Class */
+.highlight{
+    background-color: #fff7e9;
+    padding: 20px;
+    margin:20px auto;
+    border:2px solid #b58b64;
+    border-radius:10px;
+}
+/*Note Class */
+.note{
+    background-color: #f5e6d3;
+    border-left:4px solid #68412a;
+    padding: 15px;
+    margin:20px auto;
+}
+/*Third reusable class */
+.feature{
+    background: color #fffaf2;
+    padding:20px;
+    margin:20px auto;
+    border:2px solid #68412a;
+    border-radius:10px;
+}
+/*Center images */
+img{
+    display:block;
+    margin:20px auto;
+    max-width:100%;
+    height:auto;
+    border-radius:10px;
+}
+/* Cascade and specificity */
+p.note{
+    color:#593622;
+}
+/* Image styling */
+img{
+    display:block;
+    max-width: 100%;
+    height: auto;
+    margin:20 px auto;
+    border-radius: 10px;
+}
+/* Image Captions */
+figure{
+    margin:20px auto;
+    text-align: center;
+}
+figcaption{
+    color: #593622;
+    font-style: italic;
+    Margin-top: 10px;
+}
+/* Footer */
+footer {
+    background-color: #493022;
+    color:white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
+footer p{
+    color:white;
+}
+footer a {
+    color: #fff1c9;
+    text-decoration: underline;
+}
+/* Responsive design */
+@media screen and (max-width: 600px) {
+    #main-content{
+        width:95%;
+        padding:10px;
+    }
+    nav a{
+        display: block;
+        margin: 5px auto;
+    }
+    h1{
+        font-size: 26px;
+    }
+    img{
+        max-width: 100%;
+    }
+}
